@@ -1,0 +1,82 @@
+---
+import { MapPin } from 'lucide-react';
+---
+
+<section id="alojamientos" class="py-16 md:py-24 bg-blue-50">
+  <div class="container px-4 md:px-6">
+    <!-- Título y descripción -->
+    <div class="text-center mb-10">
+      <h2 class="text-3xl font-bold tracking-tighter mb-2">Alojamientos 🏠</h2>
+      <div class="w-20 h-1 bg-secondary mx-auto mb-6"></div>
+      <p class="text-gray-600 max-w-2xl mx-auto">
+        Cada casa está equipada con las comodidades necesarias para garantizar un ambiente propicio para el estudio y la convivencia. Las casas cuentan con diversas habitaciones, duchas, cocinas, salas de estudio y otros servicios esenciales para una convivencia cómoda.
+      </p>
+    </div>
+
+    <!-- Grid de cards -->
+    <div class="grid gap-8 md:grid-cols-3">
+      <!-- Casa 12 -->
+      <div class="rounded-lg border bg-card text-card-foreground shadow-sm overflow-hidden">
+        <div class="relative h-[200px]">
+          <img
+            src="https://placeholder.pics/svg/350x200"
+            alt="Casa 12"
+            class="object-cover"
+            loading="lazy"
+            decoding="async"
+            style="position: absolute; inset: 0; width: 100%; height: 100%;"
+          />
+        </div>
+        <div class="p-6">
+          <h3 class="text-xl font-bold mb-2">Casa 12</h3>
+          <div class="flex items-start gap-2 text-gray-600">
+            <MapPin class="h-5 w-5 text-secondary mt-0.5" />
+            <span>Calle 12 al 1242</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Casa 11 -->
+      <div class="rounded-lg border bg-card text-card-foreground shadow-sm overflow-hidden">
+        <div class="relative h-[200px]">
+          <img
+            src="https://placeholder.pics/svg/350x200"
+            alt="Casa 11"
+            class="object-cover"
+            loading="lazy"
+            decoding="async"
+            style="position: absolute; inset: 0; width: 100%; height: 100%;"
+          />
+        </div>
+        <div class="p-6">
+          <h3 class="text-xl font-bold mb-2">Casa 11</h3>
+          <div class="flex items-start gap-2 text-gray-600">
+            <MapPin class="h-5 w-5 text-secondary mt-0.5" />
+            <span>Calle 11 al 1706</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Casa 5 -->
+      <div class="rounded-lg border bg-card text-card-foreground shadow-sm overflow-hidden">
+        <div class="relative h-[200px]">
+          <img
+            src="https://placeholder.pics/svg/350x200"
+            alt="Casa 5"
+            class="object-cover"
+            loading="lazy"
+            decoding="async"
+            style="position: absolute; inset: 0; width: 100%; height: 100%;"
+          />
+        </div>
+        <div class="p-6">
+          <h3 class="text-xl font-bold mb-2">Casa 5</h3>
+          <div class="flex items-start gap-2 text-gray-600">
+            <MapPin class="h-5 w-5 text-secondary mt-0.5" />
+            <span>Calle 5 al 1680</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

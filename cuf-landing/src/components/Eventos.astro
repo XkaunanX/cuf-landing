@@ -1,0 +1,47 @@
+---
+import { Gift, Users } from 'lucide-react';
+---
+
+<section id="eventos" class="py-16 md:py-24">
+  <div class="container px-4 md:px-6">
+    <!-- Título -->
+    <div class="text-center mb-10">
+      <h2 class="text-3xl font-bold tracking-tighter mb-2">
+        Eventos Importantes Durante el Año
+      </h2>
+      <div class="w-20 h-1 bg-secondary mx-auto mb-6"></div>
+    </div>
+
+    <div class="grid gap-8 md:grid-cols-2">
+      <!-- Card: Rifas -->
+      <div class="rounded-lg border bg-card text-card-foreground shadow-sm overflow-hidden">
+        <div class="p-8">
+          <div class="flex flex-col items-center text-center gap-4">
+            <div class="p-4 bg-orange-100 rounded-full">
+              <Gift class="h-10 w-10 text-secondary" />
+            </div>
+            <h3 class="text-xl font-bold">Rifas</h3>
+            <p class="text-gray-600">
+              Cada año organizamos rifas con el fin de recaudar fondos para el mantenimiento de las casas y para financiar proyectos que beneficien a nuestros becados y a la comunidad en general.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card: Campaña de Socios -->
+      <div class="rounded-lg border bg-card text-card-foreground shadow-sm overflow-hidden">
+        <div class="p-8">
+          <div class="flex flex-col items-center text-center gap-4">
+            <div class="p-4 bg-blue-100 rounded-full">
+              <Users class="h-10 w-10 text-primary" />
+            </div>
+            <h3 class="text-xl font-bold">Campaña de Socios</h3>
+            <p class="text-gray-600">
+              Lanzamos campañas de socios para promover la colaboración de la comunidad. Los socios ayudan a financiar diversas actividades y proyectos, permitiendo que el Centro siga creciendo y ofreciendo apoyo a más estudiantes.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

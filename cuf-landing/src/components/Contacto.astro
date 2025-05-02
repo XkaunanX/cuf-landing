@@ -1,0 +1,56 @@
+<section id="contacto" class="py-16 md:py-24 bg-orange-50">
+    <div class="container px-4 md:px-6">
+      <!-- Título y descripción -->
+      <div class="text-center mb-10">
+        <h2 class="text-3xl font-bold tracking-tighter mb-2">Contactanos 📨</h2>
+        <div class="w-20 h-1 bg-secondary mx-auto mb-6"></div>
+        <p class="text-gray-600 max-w-2xl mx-auto">
+          En el Centro de Estudiantes Florenses, estamos siempre disponibles para escuchar tus comentarios, sugerencias o cualquier inquietud que puedas tener.
+        </p>
+      </div>
+  
+      <!-- Formulario centrado -->
+      <div class="max-w-xl mx-auto">
+        <form class="space-y-4" id="contactForm" name="contactForm" novalidate="novalidate" action="https://formsubmit.co/damipiazza11@gmail.com" method="POST">
+          <div class="grid grid-cols-1 gap-4">
+            <div class="space-y-2">
+              <label for="name" class="text-sm font-medium">Nombre</label>
+              <input
+                id="name"
+                name="name"
+                type="text"
+                placeholder="Tu nombre"
+                class="flex h-10 w-full rounded-md border border-input bg-background px-3 py-2 text-sm placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50"
+              />
+            </div>
+            <div class="space-y-2">
+              <label for="email" class="text-sm font-medium">Email</label>
+              <input
+                id="email"
+                name="email"
+                type="email"
+                placeholder="Tu email"
+                class="flex h-10 w-full rounded-md border border-input bg-background px-3 py-2 text-sm placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50"
+              />
+            </div>
+            <div class="space-y-2">
+              <label for="message" class="text-sm font-medium">Mensaje</label>
+              <textarea
+                id="message"
+                name="message"
+                placeholder="Tu mensaje"
+                class="flex w-full min-h-[120px] rounded-md border border-input bg-background px-3 py-2 text-sm placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50"
+              ></textarea>
+            </div>
+          </div>
+          <button
+            type="submit"
+            class="inline-flex items-center justify-center gap-2 w-full rounded-md text-sm font-medium h-10 px-4 bg-secondary text-primary-foreground transition-colors hover:bg-secondary/90 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50"
+          >
+            Enviar mensaje
+          </button>
+          <input type="hidden" name="_next" value="/gracias">
+        </form>
+      </div>
+    </div>
+  </section>

@@ -1,0 +1,52 @@
+---
+import { Facebook, Instagram, Twitter } from 'lucide-react';
+---
+
+<section id="inicio" class="relative min-h-screen flex items-center">
+  <!-- Imagen de fondo -->
+  <div class="absolute inset-0 z-0">
+    <img
+      src="/hero.jpeg"
+      alt="Estudiantes en el Centro Universitario Florense"
+      class="object-cover brightness-[0.6]"
+      style="position: absolute; height: 100%; width: 100%; inset: 0; color: transparent;"
+      decoding="async"
+    />
+    <div class="absolute inset-0 bg-primary/50 mix-blend-multiply"></div>
+  </div>
+
+  <!-- Contenido -->
+  <div class="container px-4 md:px-6 relative z-10 pt-20">
+    <div class="max-w-3xl space-y-6 text-white">
+      <h1 class="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl lg:text-6xl">
+        Centro Universitario Florense
+      </h1>
+      <p class="text-xl md:text-2xl">
+        Alojamiento para estudiantes florenses
+      </p>
+      <p class="md:text-lg max-w-2xl">
+        Contamos con tres casas en La Plata y una sede en Las Flores, ofreciendo
+        alojamiento a estudiantes de nuestra ciudad que cursan sus estudios en La Plata.
+      </p>
+
+      <div class="flex pt-4">
+        <button class="inline-flex items-center justify-center gap-2 text-sm font-medium h-11 px-8 rounded-md text-primary-foreground bg-secondary hover:bg-secondary/90 transition-colors">
+          ¿Necesitas mas informacion? Contactanos
+        </button>
+      </div>
+
+      <!-- Redes -->
+      <div class="flex gap-4 pt-4">
+        <a href="#" class="text-white hover:text-secondary" aria-label="Facebook">
+          <Facebook class="h-6 w-6" />
+        </a>
+        <a href="#" class="text-white hover:text-secondary" aria-label="Instagram">
+          <Instagram class="h-6 w-6" />
+        </a>
+        <a href="#" class="text-white hover:text-secondary" aria-label="Twitter">
+          <Twitter class="h-6 w-6" />
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
