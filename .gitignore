@@ -1,6 +1,8 @@
 # build output
 dist/
 
+.github/workflows/
+
 # generated types
 .astro/
 
